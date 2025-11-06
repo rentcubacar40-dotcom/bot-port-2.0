@@ -1,0 +1,38 @@
+{
+  "es": {
+    "welcome": "👋 Hola {nombre}!\n🔎 Comandos:\n/escanear <host> [inicio fin] -> escanea puertos\n/permitir <@usuario/id>       -> autorizar usuario (owner)\n/revocar <@usuario/id>        -> revocar usuario (owner)\n/listar_permitidos             -> lista usuarios permitidos (owner)\n/idioma <código>               -> cambia idioma\n⚠️ Solo escanea hosts que poseas o tengas permiso.",
+    "invalid_host": "❌ Host inválido. Debe ser IP o dominio.",
+    "no_permission": "⛔ No tienes permiso para usar este bot.",
+    "max_ports": "❌ Máx {max} puertos por petición.",
+    "usage_scan": "❌ Uso: /escanear <host> [inicio fin]",
+    "progress_scanning": "🔎 Escaneando {host} {scanned}/{total} puertos\n{barra} {percent}% ⏱ {time}s",
+    "results_for": "🔔 Resultados para {host}",
+    "main_ports_open": "✅ Puertos principales abiertos:",
+    "main_ports_closed": "❌ Puertos principales cerrados:",
+    "custom_ports_open": "🌐 Rango personalizado abiertos:",
+    "only_owner": "⛔ Solo el owner puede ejecutar este comando.",
+    "user_added": "✅ {usuario} autorizado.",
+    "user_exists": "ℹ️ {usuario} ya tenía permiso.",
+    "user_revoked": "✅ {usuario} revocado.",
+    "user_not_exist": "ℹ️ {usuario} no estaba autorizado.",
+    "allowed_empty": "Lista de usuarios vacía."
+  },
+  "en": {
+    "welcome": "👋 Hello {name}!\n🔎 Commands:\n/scan <host> [start end] -> scan ports\n/allow <@user/id>        -> authorize user (owner)\n/revoke <@user/id>       -> revoke user (owner)\n/list_allowed            -> list allowed users (owner)\n/language <code>         -> change language\n⚠️ Only scan hosts you own or have permission.",
+    "invalid_host": "❌ Invalid host. Must be IP or domain.",
+    "no_permission": "⛔ You do not have permission to use this bot.",
+    "max_ports": "❌ Max {max} ports per request.",
+    "usage_scan": "❌ Usage: /scan <host> [start end]",
+    "progress_scanning": "🔎 Scanning {host} {scanned}/{total} ports\n{barra} {percent}% ⏱ {time}s",
+    "results_for": "🔔 Results for {host}",
+    "main_ports_open": "✅ Main ports open:",
+    "main_ports_closed": "❌ Main ports closed:",
+    "custom_ports_open": "🌐 Custom range open:",
+    "only_owner": "⛔ Only the owner can execute this command.",
+    "user_added": "✅ {user} authorized.",
+    "user_exists": "ℹ️ {user} was already allowed.",
+    "user_revoked": "✅ {user} revoked.",
+    "user_not_exist": "ℹ️ {user} was not authorized.",
+    "allowed_empty": "Allowed users list is empty."
+  }
+}
